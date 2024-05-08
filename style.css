@@ -1,0 +1,29 @@
+  body {
+background: rgb(93, 93, 93);
+    background: linear-gradient(164deg, rgba(93, 93, 93, 1) 0%, rgba(159, 159, 159, 1) 46%, rgba(92, 92, 92, 1) 100%);
+      background-repeat: no-repeat;
+      padding: 0;
+      margin: 0;
+      font-family: "Josefin Sans", sans-serif;
+  }
+
+  .content {
+      text-align: center;
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      position: relative;
+    z-index: 2 !important;
+  }
+
+  @media screen and (max-width: 500px) {
+      body {
+          font-size: 18px;
+      }
+  }
+  
