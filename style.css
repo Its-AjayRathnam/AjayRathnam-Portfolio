@@ -18,6 +18,7 @@ background: rgb(93, 93, 93);
       align-items: center;
       color: rgb(255, 255, 255);
       position: relative;
+      font-size: 30px;
     z-index: 2 !important;
   }
 
@@ -26,4 +27,40 @@ background: rgb(93, 93, 93);
           font-size: 18px;
       }
   }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .myHeading{
+    font-size: 18px;
+    position: relative;
+    text-decoration: solid;
+    color: white;
+    filter: drop-shadow(2px 3px 5px black);
+  }
+  .skills{
+    height: 100vh;
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  .about.aboutHeading{
+    font-size: 60px;
+  }
+  .aboutContent{
+    position: relative;
+  }
+  .profimg{
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(30 30 30) 0%, rgb(131 131 131) 48%, rgb(59 59 59) 100%);
+border-radius: 7%;
+    left: -100%;
+  }
+
   
